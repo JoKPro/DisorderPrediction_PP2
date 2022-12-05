@@ -1,0 +1,16 @@
+name: disorder-prediction
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - pytorch
+  - ipykernel
+  - h5py
+  - pip:
+      - jupyterlab
+      - notebook

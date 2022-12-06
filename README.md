@@ -1,7 +1,7 @@
 DisorderPrediction
 ==============================
 
-predict protein disorder from AA sequence
+predict protein disorder from AA sequence (i.e. their embeddings)
 
 # Raw Data
 - CheZOD_117.fasta: 

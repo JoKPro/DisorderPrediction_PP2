@@ -12,9 +12,9 @@ predict protein disorder from AA sequence (i.e. their embeddings)
 
 
 # Goal of the Project:
-- Predict regions of disorder based on raw amino acid sequence
-- The response variable are **Z-scores** that represent the **degree of disorder**. 
-  - Z < 3: full disordered
+- Predict regions of disorder based on AA sequence embeddings
+- The response variable are residue-wise **Z-scores** that represent the **degree of disorder**. 
+  - Z < 3: fully disordered
   - 3 < Z < 8: fractional formation of local, ordered structure
   - 8 < Z < 11: flexible loops between ordered segments
   - 11 < Z: regular secondary structure or structured rigid loops
